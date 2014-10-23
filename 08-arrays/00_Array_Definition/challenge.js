@@ -1,14 +1,13 @@
-module.exports.newArray = [];
-
-var newArray1234 = [1,2,3,4,5];
-var newArray = newArray1234.sort();
-console.log(newArray1234.sort());
+module.exports.newArray = function(a,b,c,d){
+return [a,b,c,d];}
 
 
 
 
-module.exports.firstAndLast = ["1","2","3"];
-var firstAndLast= ['1','2','3'];
+
+module.exports.firstAndLast = function(a){
+var lastIndex = (a).length -1
+return [a[0],a[lastIndex]]}
 
 
 
